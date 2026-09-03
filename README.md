@@ -5,7 +5,7 @@
 ### Security Auditing for RAG Systems
 
 [![Status](https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![License: Source Available](https://img.shields.io/badge/License-Source--Available-red.svg?style=for-the-badge)](LICENSE.md)
 [![GitHub Stars](https://img.shields.io/github/stars/Vaibhavi28/RagNark?style=for-the-badge&logo=github&logoColor=white&color=yellow)](https://github.com/Vaibhavi28/RagNark/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/Vaibhavi28/RagNark?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vaibhavi28/RagNark/commits/main)
 
@@ -93,6 +93,8 @@ Ingest → Filter to RAG-relevant attacks → Deduplicate → Validate against r
 ```
 
 Only probes that demonstrably trigger a vulnerability make it into the library.
+
+> License status of every third-party source used above is tracked in [`DATA_LICENSE.md`](./DATA_LICENSE.md). Nothing ships in `probes/` until its source is confirmed cleared for use.
 
 ---
 
@@ -206,21 +208,29 @@ A vision paper describing the adversarial document fingerprinting technique and 
 
 ## Contributing
 
-The probe library is community-extensible. See `CONTRIBUTING.md` for the probe schema and submission format.
+This repository is source-available, not open-source (see License below). You are welcome to:
 
-Bug reports and feature requests welcome via [GitHub Issues](https://github.com/Vaibhavi28/RagNark/issues).
+- Fork the repository **privately** to prepare a pull request back to this project
+- Submit probe suggestions in the schema defined in `CONTRIBUTING.md`
+- Report bugs or request features via [GitHub Issues](https://github.com/Vaibhavi28/RagNark/issues)
+
+You may not fork or redistribute this code as a standalone or derivative project. See [`LICENSE.md`](./LICENSE.md) for full terms.
 
 ---
 
 ## License
 
-MIT License — see `LICENSE` for details.
+This repository is **source-available**, not open-source. The code is publicly viewable for portfolio, academic, and demonstration purposes, but copying, redistributing, or reusing it in another project requires prior written permission.
+
+See [`LICENSE.md`](./LICENSE.md) for full terms and [`NOTICE.md`](./NOTICE.md) for a plain-language summary of what is and isn't allowed.
+
+Third-party data used in the `probes/` library is governed by separate, independent terms — see [`DATA_LICENSE.md`](./DATA_LICENSE.md).
 
 ---
 
 <div align="center">
 
-**© 2026 Vaibhavi Sanjay Kathepuri**
+**© 2026 Vaibhavi Sanjay Kathepuri. All Rights Reserved.**
 
 MS Cybersecurity Analytics and Operations · Pennsylvania State University
 
