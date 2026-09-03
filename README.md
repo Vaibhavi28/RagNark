@@ -200,12 +200,6 @@ See `SECURITY.md` for the responsible disclosure policy.
 
 ---
 
-## Research
-
-A vision paper describing the adversarial document fingerprinting technique and the probe validation methodology is in preparation for submission to arXiv and an AI security venue.
-
----
-
 ## Contributing
 
 This repository is source-available, not open-source (see License below). You are welcome to:
