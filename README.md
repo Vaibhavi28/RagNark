@@ -1,6 +1,6 @@
 <div align="center">
 
-# RAGnark
+# RAGNark
 
 ### Security Auditing for RAG Systems
 
