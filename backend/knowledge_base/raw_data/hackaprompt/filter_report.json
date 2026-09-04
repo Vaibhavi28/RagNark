@@ -1,0 +1,11 @@
+{
+  "total_rows_input": 601757,
+  "rows_after_keyword_filter": 6483,
+  "rows_after_embedding_filter": 190,
+  "unique_rows_after_dedup": 77,
+  "similarity_threshold_relevance": 0.45,
+  "similarity_threshold_dedup": 0.92,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "processing_date": "2026-09-04T18:17:49.226598+00:00",
+  "malformed_lines_skipped": 0
+}
