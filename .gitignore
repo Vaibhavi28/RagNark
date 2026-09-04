@@ -10,9 +10,10 @@ __pycache__/
 *.so
 .pytest_cache/
 
-# Raw dataset dumps — regeneratable via ingestion scripts, not versioned
-backend/knowledge_base/raw_data/**/*.jsonl
+# Raw dataset dumps only — regeneratable via ingestion scripts, not versioned
 backend/knowledge_base/raw_data/**/raw_dump.jsonl
 
-# Keep provenance/license metadata files — no secrets, small, needed for transparency
+# Keep provenance, filter reports, and small curated outputs — these ARE versioned
 !backend/knowledge_base/raw_data/**/provenance.json
+!backend/knowledge_base/raw_data/**/filter_report.json
+!backend/knowledge_base/raw_data/**/filtered_candidates.jsonl
