@@ -1,0 +1,18 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Raw dataset dumps — regeneratable via ingestion scripts, not versioned
+backend/knowledge_base/raw_data/**/*.jsonl
+backend/knowledge_base/raw_data/**/raw_dump.jsonl
+
+# Keep provenance/license metadata files — no secrets, small, needed for transparency
+!backend/knowledge_base/raw_data/**/provenance.json

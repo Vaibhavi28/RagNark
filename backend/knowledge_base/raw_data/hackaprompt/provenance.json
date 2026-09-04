@@ -1,0 +1,9 @@
+{
+  "source_name": "HackAPrompt",
+  "source_url": "https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset",
+  "license_detected": "mit",
+  "num_rows_ingested": 601757,
+  "ingestion_date": "2026-09-04T17:58:05.604563+00:00",
+  "dataset_revision_hash": "25b87fbedfb86840abaf8cd09af7a029208a971a",
+  "review_status": "NEEDS_MANUAL_REVIEW"
+}
